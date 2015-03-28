@@ -1,0 +1,23 @@
+Furtherfield Show Data
+======================
+
+Data regarding art shows organized by Furtherfield, and the software to extract it from the web site .
+
+License
+-------
+
+Code licensed GPL v3, or later at your option.
+
+Data included in this archive licensed ODbL 1.0 .
+
+Usage
+-----
+
+Requires wget and Python 2.6+ with unicodecsv and BeautifulSoup.
+
+The generated data is included, but if you need to regenerate it for any reason
+type the following in the command line console:
+
+bash fetch-pages.sh
+
+python process_pages.py
